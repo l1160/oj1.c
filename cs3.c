@@ -15,6 +15,7 @@ int main(){
         for(i=0;n;i++,n>>=1){
             num[i]=(int) n&1;
         }
+        int n;
         for(i=2;i<cnt;i++){
             if(num[i]==1&&num[i-1]==0&&num[i-2]==1){
                 ans++;
